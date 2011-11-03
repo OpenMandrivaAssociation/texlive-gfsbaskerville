@@ -1,3 +1,9 @@
+# revision 19440
+# category Package
+# catalog-ctan /fonts/greek/gfs/gfsbaskerville
+# catalog-date 2008-08-19 21:00:04 +0200
+# catalog-license other-free
+# catalog-version 1.0
 Name:		texlive-gfsbaskerville
 Version:	1.0
 Release:	1
@@ -53,6 +59,7 @@ encoding.
 %doc %{_texmfdistdir}/doc/fonts/gfsbaskerville/README.TEXLIVE
 %doc %{_texmfdistdir}/doc/fonts/gfsbaskerville/gfsbaskerville.pdf
 %doc %{_texmfdistdir}/doc/fonts/gfsbaskerville/gfsbaskerville.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ encoding.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
