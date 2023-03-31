@@ -1,6 +1,6 @@
 Name:		texlive-gfsbaskerville
 Version:	19440
-Release:	1
+Release:	2
 Summary:	A Greek font, from one such by Baskerville
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/greek/gfs/gfsbaskerville
