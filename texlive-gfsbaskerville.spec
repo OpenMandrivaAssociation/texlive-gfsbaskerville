@@ -3,7 +3,7 @@ Version:	19440
 Release:	2
 Summary:	A Greek font, from one such by Baskerville
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/greek/gfs/gfsbaskerville
+URL:		https://www.ctan.org/tex-archive/fonts/greek/gfs/gfsbaskerville
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gfsbaskerville.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gfsbaskerville.doc.r%{version}.tar.xz
